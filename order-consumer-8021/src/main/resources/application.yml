@@ -1,0 +1,9 @@
+server:
+  port: 8021
+
+spring:
+  application:
+    name: order-consumer
+  cloud:
+    nacos:
+      server-addr: localhost:8848
