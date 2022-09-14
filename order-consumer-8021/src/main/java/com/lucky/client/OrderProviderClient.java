@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @Date 2022/8/18
  * @Version 1.0
  **/
-@FeignClient("order-provider")
+@FeignClient("order-provider") //使用OpenFeign进行远程服务调用
 public interface OrderProviderClient {
 
     @GetMapping("/order/{id}")

@@ -9,3 +9,4 @@ spring:
       discovery:
         server-addr: localhost:8848
         weight: 30
+        enabled: false #不让本服务注册到nacos上

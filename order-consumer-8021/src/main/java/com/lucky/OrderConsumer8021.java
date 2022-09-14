@@ -24,6 +24,10 @@ public class OrderConsumer8021 {
         SpringApplication.run(OrderConsumer8021.class, args);
     }
 
+    /**
+     * 默认集成了Ribbon负载均衡
+     * @return
+     */
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate() {
